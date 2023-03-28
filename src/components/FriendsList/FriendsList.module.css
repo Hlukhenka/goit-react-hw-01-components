@@ -1,0 +1,31 @@
+.status {
+    
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.isOnline {
+    composes: status;
+    background-color: #339966;
+}
+.isOffline {
+    composes: status;
+    background-color: #ff6666;
+}
+.avatar {
+    padding:15px;
+}
+.name {
+    font-size: 23px;
+}
+
+.item {
+    background-color: white;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content:left;
+    border-radius: 5px;
+    min-width: 300px;
+}
