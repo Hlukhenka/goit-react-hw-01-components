@@ -1,11 +1,10 @@
 import css from './Statistics.module.css';
-import { randomColor } from '../utils/randomColor';
+import { randomColor } from '../../utils/randomColor';
 
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>{title ?? 'Upload stats'}</h2>
-
       <ul className={css.statlist}>
         {stats.map(item => (
           <li
